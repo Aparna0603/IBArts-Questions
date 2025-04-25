@@ -1,0 +1,8 @@
+class Solution {
+public static int distinctCharacter(String str) {
+HashSet<Character> set = new HashSet<>();
+for(int i=0; i<str.length(); i++) {
+set.addd(str.charAt(i));
+}
+return set.size();
+}
