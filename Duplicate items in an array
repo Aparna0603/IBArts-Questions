@@ -1,0 +1,13 @@
+ class Main {
+public static int findDuplicates(int arr[]) {
+int n = arr.length;
+Set<Integer> set = new HashSet<>();
+for(int num:arr) {
+set.add(num);
+if(set.contains(num)) {
+return num;
+}
+set.add(num);
+}
+return -1;
+}
