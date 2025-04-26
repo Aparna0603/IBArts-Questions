@@ -6,3 +6,4 @@ return 1;
 int fact = n*factorial(n-1);
 return fact;
 }
+}
